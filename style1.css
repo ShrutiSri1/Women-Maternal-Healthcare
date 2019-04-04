@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 h5,
 h6 {
   font-family: "Lato", sans-serif;
@@ -10,10 +14,6 @@ button {
 .fa-anchor,
 .fa-coffee {
   font-size: 200px;
-}
-#diet {
-  width: 400px;
-  margin-left: -100px;
 }
 .home {
   background-color: white;
@@ -51,15 +51,24 @@ button {
   background-color: black;
   color: black;
 }
+.navbar {
+  overflow: hidden;
+  background-color: #e91e63;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 
 .topnav .icon {
   display: none;
+  background-color: #e91e63;
 }
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
+	  background-color: #e91e63;
     float: right;
     display: block;
   }
@@ -69,11 +78,14 @@ button {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
+	background-color: #e91e63;
     right: 0;
     top: 0;
   }
   .topnav.responsive a {
     float: none;
+	background-color: #e91e63;
+	color: black;
     display: block;
     text-align: left;
   }
