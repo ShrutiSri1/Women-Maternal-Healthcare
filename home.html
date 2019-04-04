@@ -42,7 +42,7 @@
 			  <a href="#news" >Yoga</a>
 			  <a href="#contact" >Diet</a>
 			  <a href="#about" >Videos</a>
-			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			  <a class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
 			  </a>
 			</div>
@@ -52,12 +52,12 @@
 				  <h1 class="w3-margin w3-jumbo">Women Maternal Healthcare</h1>
 				  
 				  <button
-					class="w3-button  w3-padding-large w3-large w3-margin-top"
+					class="w3-button  w3-padding-large w3-large w3-margin-top" id="option"
 				  >
 					ENGLISH
 				  </button>
 
-				  <button class="w3-button w3-pink w3-padding-large w3-large w3-margin-top">
+				  <button class="w3-button w3-padding-large w3-large w3-margin-top" id="option">
 				  <a href="homeHINDI.html"  style="text-decoration:none">हिंदी</a>
 				   </button> 
 				  
@@ -181,7 +181,16 @@
 			  
 			</div>
 
-
+			<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+			</script>
 
 
 
