@@ -37,17 +37,19 @@
 	<body>
 	
 			<!--Nav Bar-->
-			<div class="topnav w3-pink" id="myTopnav">
-			  <a href="#home" class="active" >Home</a>
-			  <a href="#news" >Yoga</a>
-			  <a href="#contact" >Diet</a>
-			  <a href="#about" >Videos</a>
+			<div class="navbar" >
+			<div class="topnav w3-pink" id="myTopnav" data-toggle="collapse">
+			  <a href="#home" class="active" onclick="myFunction()" >Home</a>
+			  <a href="#yoga" onclick="myFunction()">Yoga</a>
+			  <a href="#diet" onclick="myFunction()">Diet</a>
+			  <a href="#videos" onclick="myFunction()" >Videos</a>
 			  <a class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
 			  </a>
 			</div>
+			</div>
 			
-			<div class="w3-container home w3-center" style="padding:128px 16px">
+			<div class="w3-container home w3-center" style="padding:128px 16px" id="home">
 			      <img src="./img/home6.png" id="home22" />
 				  <h1 class="w3-margin w3-jumbo">Women Maternal Healthcare</h1>
 				  
@@ -69,7 +71,7 @@
 			<!--YOGA      -->
 			<div class="w3-row-padding  w3-pink w3-padding-64 w3-container">
 			  
-				<div class="w3-twothird">
+				<div class="w3-twothird" id="yoga">
 				  <h1>YOGA</h1>
 				  <h5 class="w3-padding-32">
 					Much like other types of childbirth-preparation classes, prenatal
@@ -103,7 +105,7 @@
 				  />
 				</div>
 
-				<div class="w3-twothird w3-right ">
+				<div class="w3-twothird w3-right " >
 				  <h1>DIET</h1>
 				  <h5 class="w3-padding-32 w3-right">
 					Much like other types of childbirth-preparation classes, prenatal
