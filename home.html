@@ -1,21 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+<head>
   <title>WMH</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Montserrat"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-   <link rel="stylesheet" type="text/css" href="style.css" /><body>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" />
+
+
     <!-- Header1 -->
     <!--<header class="w3-container home w3-center" style="padding:128px 16px">
       <img src="./img/home6.png" id="home22" />
@@ -34,14 +30,17 @@
        
       </button>
     </header>-->
+</head>
 	<body>
 	
 			<!--Nav Bar-->
 			<div class="navbar" >
 			<div class="topnav w3-pink" id="myTopnav" data-toggle="collapse">
 			  <a href="#home" class="active" onclick="myFunction()" >Home</a>
-			  <a href="#yoga" onclick="myFunction()">Yoga</a>
-			  <a href="#diet" onclick="myFunction()">Diet</a>
+			  <a href="#yoga" onclick="myFunction()">Month-1</a>
+			  <a href="#diet" onclick="myFunction()">Month-2</a>
+			  <a href="#body-change" onclick="myFunction()">Month-3</a>
+			  <a href="#precaution" onclick="myFunction()">Precautions</a>
 			  <a href="#videos" onclick="myFunction()" >Videos</a>
 			  <a class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
@@ -69,9 +68,9 @@
 			
 			<!--End Of Navbar-->
 			<!--YOGA      -->
-			<div class="w3-row-padding  w3-pink w3-padding-64 w3-container">
+			<div class="w3-row-padding  w3-pink w3-padding-64 w3-container" id="yoga">
 			  
-				<div class="w3-twothird" id="yoga">
+				<div class="w3-twothird" >
 				  <h1>YOGA</h1>
 				  <h5 class="w3-padding-32">
 					Much like other types of childbirth-preparation classes, prenatal
@@ -98,14 +97,14 @@
 
 
 			<!--DIET         -->
-			<div class="w3-row-padding  w3-white w3-padding-64 w3-container">
+			<div class="w3-row-padding  w3-white w3-padding-64 w3-container" id="diet">
 			  
 				<div class="w3-third w3-center">
 					<img id="diet" src="./img/diet_1.jpg" 
 				  />
 				</div>
 
-				<div class="w3-twothird w3-right " id="diet">
+				<div class="w3-twothird w3-right " >
 				  <h1>DIET</h1>
 				  <h5 class="w3-padding-32 w3-right">
 					Much like other types of childbirth-preparation classes, prenatal
@@ -126,7 +125,7 @@
 
 			</div>
 			<!-- BODY CHANGES -->
-			<div class="w3-row-padding w3-pink w3-padding-64 w3-container">
+			<div class="w3-row-padding w3-pink w3-padding-64 w3-container" id="body-change">
 			  
 				<div class="w3-twothird">
 				  <h1>BODY CHANGES</h1>
@@ -155,7 +154,7 @@
 			</div>
 
 			<!--PRECAUTION-->
-			<div class="w3-row-padding  w3-white w3-padding-64 w3-container">
+			<div class="w3-row-padding  w3-white w3-padding-64 w3-container" id="precaution">
 			  
 				<div class="w3-third w3-center">
 				  <img src="./img/precaution.jpg" id="pre"
@@ -164,7 +163,7 @@
 
 				<div class="w3-twothird">
 				  <h1>PRECAUTIONS</h1>
-				  <h5 class="w3-padding-32"  id="videos">
+				  <h5 class="w3-padding-32">
 					Much like other types of childbirth-preparation classes, prenatal
 					yoga is a multifaceted approach to exercise that encourages
 					stretching, mental centering and focused breathing. Research
