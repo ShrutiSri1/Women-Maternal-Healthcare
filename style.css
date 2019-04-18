@@ -51,8 +51,10 @@ button {
   background-color: black;
   color: black;
 }
+
 .navbar {
   overflow: hidden;
+}
   background-color: #e91e63;
   position: fixed;
   top: 0;
@@ -64,6 +66,7 @@ button {
   display: none;
   background-color: #e91e63;
 }
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
